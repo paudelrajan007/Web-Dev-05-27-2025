@@ -1,0 +1,17 @@
+ Mini Project Using <br> and <hr>
+Project: “Simple Biography Page”
+
+Use only <p>, <br>, and <hr> tags to display a person's short biography and achievements.
+
+Interview Questions for <br> and <hr>
+What is the difference between <br> and <p>?
+
+Is <hr> semantic? What does it represent?
+
+Can you use <br> inside block-level elements? What about inline elements?
+
+How can you style <hr> using CSS?
+
+How does accessibility software treat <br> and <hr>?
+
+When should you avoid using <br> in modern web design?

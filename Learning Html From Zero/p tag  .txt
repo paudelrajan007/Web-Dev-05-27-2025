@@ -3,3 +3,19 @@ Project: "Quotes Collection Page"
 Create a simple HTML page that shows famous quotes using only <p> tags.
 
 
+HTML Interview Questions Related to <p> Tag
+What is the purpose of the <p> tag in HTML?
+
+Can you nest a <p> tag inside another <p> tag? Why or why not?
+
+What default styling does the <p> tag have in most browsers?
+
+How is the <p> tag different from <div> and <span>?
+
+Is the <p> tag a block-level or inline element?
+
+How does the <p> tag impact accessibility and SEO?
+
+What happens if you forget to close a <p> tag?
+
+Can you include images or lists inside a <p> tag? What are the limitations? answer all this question
