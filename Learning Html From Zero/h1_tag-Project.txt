@@ -1,0 +1,52 @@
+📚 Project: “My Dream Life” Webpage Using Only Heading Tags
+🎯 Goal: Create a structured webpage using only heading tags (<h1> to <h6>) to describe your dream life and future.
+✅ Instructions
+Start with <!DOCTYPE html> and basic HTML structure.
+
+Use <h1> as your main title — e.g., "My Dream Life".
+
+Break it down into sections using <h2>, <h3>, etc.
+
+Try to use all six heading levels meaningfully.
+
+Structure ideas like:
+
+<h1> My Dream Life
+
+<h2> Dream Career
+
+<h3> My Role
+
+<h3> Why I Chose It
+
+<h2> Dream House
+
+<h3> Location
+
+<h3> Design
+
+<h4> Living Room
+
+<h4> Kitchen
+
+<h2> Future Travel Plans
+
+<h3> Countries I Want to Visit
+
+<h4> Japan
+
+<h5> Tokyo
+
+<h5> Kyoto
+
+<h6> Temples
+
+📝 Your Tasks
+ Use a clear, logical structure.
+
+ Include all 6 heading levels at least once.
+
+ Do not use any tags other than headings.
+
+ Save the file as dream_life.html and open it in a browser to see the result.
+

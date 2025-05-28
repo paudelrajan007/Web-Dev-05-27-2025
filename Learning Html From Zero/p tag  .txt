@@ -1,0 +1,5 @@
+Project: "Quotes Collection Page"
+
+Create a simple HTML page that shows famous quotes using only <p> tags.
+
+
