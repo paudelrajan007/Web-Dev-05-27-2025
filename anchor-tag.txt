@@ -1,0 +1,75 @@
+it is define as hyperlink that links one pages with another.
+HTML Anchor Tag Interview Questions (With Answers)
+1. What does the <a> tag do in HTML?
+The <a> tag defines a hyperlink used to link from one page to another.
+
+2. What is the href attribute?
+It specifies the destination URL of the link.
+
+3. How do you open a link in a new tab?
+Use target="_blank".
+
+4. What is rel="noopener noreferrer" used for?
+noopener: Prevents the new page from accessing window.opener.
+
+noreferrer: Prevents the browser from sending the referrer header.
+
+5. How do you create an internal link?
+Use href="#id" to jump to a section with the corresponding id.
+
+6. How can you create a downloadable link?
+Use the download attribute: <a href="file.pdf" download>Download</a>
+
+7. What does the ping attribute do?
+It sends a POST request to the URL(s) specified whenever the link is clicked (often used for tracking).
+
+8. What is referrerpolicy in anchor tags?
+It controls the amount of referrer information sent when navigating.
+
+
+
+Got it! Here's a **single mini project question** that **requires using all attributes of the `<a>` (anchor) tag** in one task — no CSS, just pure HTML.
+
+---
+
+## 🧩 **Mini Project Question (Anchor Tag Mastery)**
+
+> **Project Title**: "Create an HTML Link Showcase Page Using Only `<a>` Tags"
+>
+> **Objective**: Build a single HTML page that demonstrates **all the core and advanced attributes** of the `<a>` tag. This includes but is not limited to:
+>
+> * `href`
+> * `target`
+> * `rel`
+> * `download`
+> * `hreflang`
+> * `type`
+> * `ping`
+> * `referrerpolicy`
+> * `title`
+> * `accesskey`
+> * `tabindex`
+> * `mailto:`, `tel:`
+>
+> **Requirements**:
+>
+> 1. Link to at least **two external websites**, opening in a **new tab**.
+> 2. Include a **downloadable file** using the `download` attribute.
+> 3. Use **internal links** (`#id`) to navigate between sections.
+> 4. Include a link with:
+>
+>    * `rel="noopener noreferrer"`
+>    * `ping` and `referrerpolicy` attributes
+> 5. Add **a language-specific link** using `hreflang`.
+> 6. Use `type` to describe the MIME type of a downloadable file.
+> 7. Add **one email link** and **one phone link**.
+> 8. Include `title`, `accesskey`, and `tabindex` for accessibility.
+> 9. Use an `<a>` tag to link to an image (optional).
+>
+> **Bonus**:
+>
+> * Add a comment above each `<a>` explaining which attributes are used and why.
+
+---
+
+Let me know if you'd like the **solution HTML code** for this project, a **checklist**, or a way to validate whether each requirement is met.
