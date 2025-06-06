@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Anchor Tag Attribute Showcase</title>
+  </head>
+  <body>
+    <h1>🔗 Anchor Tag Mastery Project</h1>
+
+    <!-- External link with target, rel, title, accesskey, tabindex -->
+    <p>
+      <!-- Opens in a new tab, safe rel, tooltip, keyboard shortcut, and tab order -->
+      <ao
+        href="https://www.openai.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Visit OpenAI in a new tab"
+        accesskey="o"
+        tabindex="1"
+        >OpenAI Website (Accesskey: O)</ao
+      >
+    </p>
+
+    <!-- Second external link with hreflang -->
+    <p>
+      <!-- hreflang specifies the language of the linked page -->
+      <a
+        href="https://es.wikipedia.org/wiki/HTML"
+        hreflang="es"
+        target="_blank"
+        rel="noopener noreferrer"
+        tabindex="2"
+        title="Spanish Wikipedia HTML Page"
+        >HTML on Spanish Wikipedia</a
+      >
+    </p>
+
+    <!-- Internal page navigation -->
+    <p>
+      <!-- Jump to section below with id="downloads" -->
+      <a href="#downloads" title="Go to Downloads Section" tabindex="3"
+        >Go to Download Section</a
+      >
+    </p>
+
+    <!-- Mailto link -->
+    <p>
+      <!-- Opens default email app -->
+      <a href="mailto:test@example.com" title="Send us an email" tabindex="4"
+        >Email Us</a
+      >
+    </p>
+
+    <!-- Tel link -->
+    <p>
+      <!-- Click-to-call on mobile -->
+      <a href="tel:+1234567890" title="Call us now" tabindex="5">Call Us</a>
+    </p>
+
+    <!-- Download file with type -->
+    <h2 id="downloads">📥 Download Section</h2>
+    <p>
+      <!-- Downloads a sample PDF file -->
+      <a
+        href="sample.pdf"
+        download
+        type="application/pdf"
+        title="Download PDF file"
+        tabindex="6"
+        >Download Sample PDF</a
+      >
+    </p>
+
+    <!-- Ping and referrerpolicy example -->
+    <p>
+      <!-- Sends a ping to tracking URL (won't work offline) -->
+      <a
+        href="https://example.com"
+        ping="https://yourdomain.com/ping"
+        referrerpolicy="no-referrer"
+        title="Tracked link with no referrer"
+        tabindex="7"
+        >Tracked Link</a
+      >
+    </p>
+
+    <!-- Image as a link -->
+    <p>
+      <!-- Clickable image that links to site -->
+      <a href="https://www.example.com" title="Go to Example.com">
+        <img src="https://via.placeholder.com/150" alt="Example Image Link" />
+      </a>
+    </p>
+
+    <!-- Back to Top using internal anchor -->
+    <p>
+      <a href="#top" title="Back to Top" tabindex="8">Back to Top</a>
+    </p>
+  </body>
+</html>

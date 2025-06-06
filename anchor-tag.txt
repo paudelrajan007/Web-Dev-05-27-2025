@@ -73,3 +73,15 @@ Got it! Here's a **single mini project question** that **requires using all attr
 ---
 
 Let me know if you'd like the **solution HTML code** for this project, a **checklist**, or a way to validate whether each requirement is met.
+
+
+hreflang	Show region/language version in search	English/Spanish site versions
+type	Inform browser of file type	PDF download link
+ping	Track link clicks	Ad click tracking
+referrerpolicy	Control privacy/referrer behavior	Hiding domain info
+title	Tooltip info	Extra link description
+accesskey	Keyboard shortcut	Quick nav for disabled users
+tabindex	Tab order customization	Controlled form/tab nav
+Internal Link (#id)	Navigate within page	Table of contents, FAQ
+mailto: / tel:	Email or call directly	Contact Us page
+Image as Link	Clickable image navigation	Logo linking home
