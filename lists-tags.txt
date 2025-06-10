@@ -1,0 +1,46 @@
+There are three lists they are as 
+1-- order lists
+2-- unorder lists 
+3-- Description List
+
+1. Ordered List (<ol>)
+Displays items in a numbered format.
+Example:
+
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+
+2. Unordered List (<ul>)
+Displays items in a bulleted format.
+
+Example:
+
+<ul>
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Orange</li>
+</ul>
+
+✅ 3. Description List (<dl>)
+Used for definitions, pairs items with their descriptions.
+
+Elements:
+
+<dl> = Description list container
+
+<dt> = Term (what’s being described)
+
+<dd> = Description (the explanation)
+
+Example:
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+</dl>

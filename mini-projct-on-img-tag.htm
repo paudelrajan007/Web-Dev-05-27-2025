@@ -1,0 +1,49 @@
+<!--
+
+Mini Project Idea: "Secret Area Image Map"
+
+✨ Goal:
+
+Create an image on a webpage where:
+
+One secret corner opens Facebook.
+
+Another part opens Instagram.
+
+The rest of the image does nothing.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project on Image tag</title>
+  </head>
+  <body>
+    <img
+      src="panda-.webp"
+      alt="fung fu panda "
+      usemap="#hide"
+      width="100"
+      height="50"
+    />
+    <map name="hide">
+      <area
+        shape="rect"
+        coords="50,0,100,40"
+        href="https://www.facebook.com/"
+        alt="facebook"
+        target="_blank"
+      />
+
+      <area
+        shape="rect"
+        coords="40,0,50,30"
+        href="https://www.instagram.com/"
+        alt="instagram"
+        target="_blank"
+      />
+    </map>
+  </body>
+</html>
